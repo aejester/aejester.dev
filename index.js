@@ -14,6 +14,6 @@ app.get("/images/:image", (req, res) => {
     res.sendFile(__dirname+"/images/"+req.params.image);
 })
 
-http.listen(process.env.PORT || 8000, () => {
-    console.log("listening on *:"+(process.env.PORT || 8000));
+http.listen(process.env.PORT || 3000, () => {
+    console.log("listening on *:"+(process.env.PORT || 3000));
 });
