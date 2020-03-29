@@ -1,0 +1,24 @@
+{
+  "name": "aejester.dev",
+  "version": "1.0.0",
+  "description": "A website for development projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aejester/aejester.dev.git"
+  },
+  "author": "aejester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aejester/aejester.dev/issues"
+  },
+  "homepage": "https://github.com/aejester/aejester.dev#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.1"
+  }
+}
